@@ -1,0 +1,233 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff6f00; /* Swiggy orange */
+  padding: 15px 40px;
+  color: #fff;
+}
+nav .logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav .logo span {
+  color: #000; /* Black highlight */
+}
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_links li {
+    list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('food-bg.jpg') no-repeat center center/cover;
+  color: #333;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #ff6f00;
+  border: none;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #e65c00;
+}
+
+/* Restaurant Cards */
+.restaurants {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin: 15px 0 5px;
+}
+
+.card p {
+  color: #777;
+  font-size: 14px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #ff6f00;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;          /* fills the card width */
+  height: 180px;        /* fixed height for all images */
+  object-fit: cover;    /* crops image nicely without distortion */
+  border-radius: 10px;  /* rounded corners */
+}
+.hero {
+  background: url("C:\Users\Govind\Pictures\gallery.png") no-repeat center center/cover;
+}
+.cart {
+  background: #fff3e0;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cart h2 {
+  margin-bottom: 15px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.cart button {
+  margin-left: 5px;
+  padding: 3px 8px;
+  background: #ff6f00;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background: #e65c00;
+}
+    /* Categories */
+.categories {
+  text-align: center;
+  padding: 40px;
+}
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.category {
+  background: #ffe0b2;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.category:hover {
+  background: #ffcc80;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f1f1f1;
+  padding: 40px;
+  text-align: center;
+}
+.review {
+  margin: 20px auto;
+  max-width: 500px;
+  font-style: italic;
+}
+.review span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer a {
+  color: #ff5722;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

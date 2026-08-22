@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>FoodWeb</title>
+</head>
+<body>
+   <nav>
+    <div class =" nav_header">
+    <div class ="logo nav_logo">
+    <a href="#">Food <span>Web</span></a>
+    </div>
+    <ul class="nav_links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Restaurants</a></li>
+      <li><a href="#">Login</a></li>
+      <li>
+    <a href="cart.html" id="cartBtn">
+        Cart 🛒 <span id="cartCount">0</span>
+    </a>
+</li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero food">
+    <h1>Order food from your favorite restaurants</h1>
+</div>
+  </header>
+<section class="restaurants">
+<!-- <section class="cart">
+  <h2>Your Cart</h2>
+  <ul id="cart-items"></ul>
+  <p id="cart-total">Total: ₹0</p>
+</section> -->
+
+    <div class="card">
+    <img src="images/img3.jpeg" alt="Pizza">
+    <h2>Pizza Hut</h2>
+    <p>Fast Food • 30 mins</p>
+    <p>₹199</p>
+
+    <button onclick="addToCart('Pizza', 199)">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="card">
+    <img src="images/img1.jpeg" alt="Biryani">
+    <h2>Biryani House</h2>
+    <p>Indian • 25 mins</p>
+    <p>₹220</p>
+
+    <button onclick="addToCart('Biryani', 220)">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="card">
+    <img src="images/img2.jpeg" alt="Matar Paneer">
+    <h2>Matar Paneer</h2>
+    <p>North Indian • 20 mins</p>
+    <p>₹180</p>
+
+    <button onclick="addToCart('Matar Paneer', 180)">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="card">
+    <img src="images/WhatsApp Image 2026-08-20 at 22.17.30.jpeg" alt="Dosa">
+    <h2>Dosa Corner</h2>
+    <p>South Indian • 15 mins</p>
+    <p>₹120</p>
+
+    <button onclick="addToCart('Dosa', 120)">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="card">
+    <img src="images/img5.jpeg" alt="Idli">
+    <h2>Idli Express</h2>
+    <p>South Indian • 10 mins</p>
+    <p>₹80</p>
+
+    <button onclick="addToCart('Idli', 80)">
+        Add to Cart
+    </button>
+</div>
+
+
+<div class="card">
+    <img src="images/img2.jpeg" alt="Sambar">
+    <h2>Sambar Delight</h2>
+    <p>South Indian • 18 mins</p>
+    <p>₹100</p>
+
+    <button onclick="addToCart('Sambar', 100)">
+        Add to Cart
+    </button>
+</div>
+</section>
+<!-- Featured Categories -->
+<section class="categories">
+  <h2>Browse by Category</h2>
+  <div class="category-list">
+    <div class="category">🍕 Pizza</div>
+    <div class="category">🍛 Biryani</div>
+    <div class="category">🍔 Burgers</div>
+    <div class="category">🍰 Desserts</div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="review">
+    <p>"FoodWeb makes ordering so easy! Fast delivery and great taste."</p>
+    <span>- Priya</span>
+  </div>
+  <div class="review">
+    <p>"Best biryani I’ve had online. Highly recommend!"</p>
+    <span>- Rahul</span>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 FoodWeb. All rights reserved.</p>
+  <p>Contact: support@foodweb.com | 📞 +91-9717344117</p>
+  <div class="social">
+    <a href="#">Facebook</a> | 
+    <a href="#">Instagram</a> | 
+    <a href="#">Twitter</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
